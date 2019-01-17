@@ -1,0 +1,158 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	display: flex;
+	cursor: pointer;
+}
+
+#contacts-list {
+	height: 100vh;
+    overflow-y: scroll;
+    min-width: 300px;
+}
+
+.person-item {
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+	border-right: 1px solid rgba(0,0,0,0.1);
+	padding: 1em;
+	width: 400px;
+	cursor: pointer;
+}
+
+.person-item:hover {
+	background-color: #f2f2f2;
+}
+
+.person-img {
+	height: 60px;
+	width: 60px;
+	background-image: url(images/person-outline.png);
+	background-position: center;
+	background-size: cover;
+	background-color: #dde7e8;
+	border-radius: 1000px;
+	margin-right: 1em;
+}
+
+.after-person-img {
+	display: flex;
+	align-items: flex-start;
+}
+
+.after-person-img p {
+	margin: 0px;
+}
+
+.content-center > *{
+	margin: 0px;
+}
+
+.name {
+	color: rgba(0,0,0,0.8);
+	margin-bottom: 5px;
+}
+
+.msg-container {
+	display: flex;
+}
+
+i {
+	margin-right: 5px;
+	color: rgba(0,0,0,0.4);
+}
+
+.fa-check-double {
+	color: #00ccff;
+}
+
+.msg {
+	color: rgba(0,0,0,0.5);
+}
+
+.time {
+	font-size: 0.7em;
+	color: rgba(0,0,0,0.6);
+}
+
+#celeb-details {
+	width: 500px;
+	border: none;
+	margin: 0px;
+    padding-left: 3em;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.card-body {
+	    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#celeb-img {
+	height: 150px;
+	width: 150px;
+	background-position: center;
+	background-size: cover;
+	background-color: #dde7e8;
+	border-radius: 1000px;
+	margin-left: 25px;
+}
+
+#celeb-name {
+	text-align: center;
+	color: #666666;
+	font-weight: bold;
+	font-size: 2em;
+	padding-bottom: 1em;
+	padding-top: 1em;
+    margin-bottom: 0px;
+}
+
+span {
+	color: rgba(0,0,0,0.3);
+	font-size: 0.5em;
+}
+
+#celeb-phone {
+	color: #228b22;
+	font-size: 1.5em;
+	margin-right: 0px;
+    padding-right: 16px;
+}
+
+#celeb-phoneNo {
+	text-align: center;
+	color: #333333;
+	font-size: 1.2em;
+	font-weight: bold;
+	padding-bottom: 1em;
+    margin-bottom: 0px;
+	margin-left: 50px;
+	margin: 0px;
+}
+
+#celeb-envelope {
+	color: #800080;
+	font-size: 1.8em;
+	margin: 0px;
+    padding-right: 20px;
+}
+
+#celeb-email {
+	text-align: center;
+	color: #666666;
+	font-weight: bold;
+	font-size: 18px;
+	margin-bottom: 0px;
+    padding-bottom: 2em;
+}
+
+#celeb-status {
+	text-align: center;
+	color: #737373;
+	font-weight: bold;
+}
