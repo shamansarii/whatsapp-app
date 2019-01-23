@@ -1,6 +1,5 @@
 WHATSAPP APP
 ------------
-
 You can see website here:  https://shamansarii.github.io/whatsapp-app/.
 
 ### WORKSHOP
@@ -13,6 +12,9 @@ The app MUST use:
 1. Bootstrap
 2. Font Awesome for icons
 3. Google Fonts for fonts
+4. JQuery for Ajax
+
+The CDNs of all ingredients, along with `script.js` and `style.css` files, have already been linked in the `<head>`.
 
 ### SCREENSHOT
 
