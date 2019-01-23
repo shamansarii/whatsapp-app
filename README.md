@@ -5,7 +5,7 @@ You can see website here:  https://shamansarii.github.io/whatsapp-app/.
 
 ## WORKSHOP
 
-IDEA - Let's make a super simple whatsapp app appplication that runs on the web. You click in the div and get the information for that div.
+1. The app is a soft whatsapp. Clicking the keys types the message. Clicking the message shows a "message sent!" alert
 
 ### INGREDIENTS
 
